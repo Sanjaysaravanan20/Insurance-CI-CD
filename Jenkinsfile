@@ -3,7 +3,7 @@ pipeline {
     environment {
         AWS_ACCOUNT_ID = '692859914450'
         AWS_REGION = 'us-east-2'
-        IMAGE_NAME = 'insurance'
+        IMAGE_NAME = 'insurance-app'
         REPOSITORY_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${IMAGE_NAME}"
     }
     
